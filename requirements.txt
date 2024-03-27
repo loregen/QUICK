@@ -1,0 +1,9 @@
+tensorflow==2.13
+larq==0.13.3
+numpy==1.23.5
+librosa==0.10.0
+matplotlib==3.7.1
+scikit-learn==1.2.2
+pyaudio==0.2.14
+IPython==8.12.0
+ipywidgets==8.1.2
