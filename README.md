@@ -34,6 +34,4 @@ pip install -r requirements.txt
 
 ## Dataset
 
-## Dataset
-
-The full audio dataset has 35 classes and can be downloaded from the TensorFlow datasets catalog at [Speech Commands Dataset](https://www.tensorflow.org/datasets/catalog/speech_commands). However, this repository includes only 5 classes to match the current model in the notebook which is sized for 5 classes.
+The full audio dataset has 35 classes and can be downloaded from the TensorFlow datasets catalog at [Speech Commands Dataset](https://www.tensorflow.org/datasets/catalog/speech_commands). However, this repository includes only 5 classes (left, no, right, stop, yes) in the 'current_classes' folder, and the current model is sized for this subset. If you want to try with more classes, you can just add the audio files to the 'current_classes' folder and configure the model accordingly.
