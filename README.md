@@ -11,7 +11,7 @@ The repository contains two Jupyter notebooks:
 
 ## Installation
 
-To run the notebooks, you need to install the required packages. For training, the following packages are needed:
+To run the notebooks, you need Python 3.8. For training, the following packages are needed:
 
 - `tensorflow 2.13`
 - `larq 0.13.3`
@@ -31,6 +31,13 @@ You can install the required packages using the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+If you use conda to manage your Python environment, you can create a new environment with the required packages using the following command (only on Apple Silicon):
+
+```bash
+conda env create -f QUICK_env.yml
+```
+
 
 ## Dataset
 
